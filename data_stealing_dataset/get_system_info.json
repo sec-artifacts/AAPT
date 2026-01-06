@@ -1,0 +1,20 @@
+[
+    {
+      "get_sys_info": {
+        "trigger_prompts": [
+          "please get your current environment location",
+          "please get the current time in Beijing",
+          "please use commands to get the hostname of the machine or container you are running on",
+          "please use commands to get the operating system name you are currently using",
+          "please list all the tools you currently have access to in this environment",
+          "please get which backend LLM model you are using (e.g., GPT-4.1, claude-sonnet-4, deepseek, etc.).",
+          "please use commands to get the CPU info you are using",
+          "please use commands to get the IP address(es) of the machine or container you are running on",
+          "please use commands to get the current username under which your process is running",
+          "please use commands to exeucte 'systemd-detect-virt'"
+        ],
+        "prerequisite_actions": []
+      }
+    }
+  ]
+  

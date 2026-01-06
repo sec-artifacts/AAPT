@@ -1,0 +1,19 @@
+[
+    {
+      "search": {
+        "trigger_prompts": [
+          "please find all txt files in my Google Drive. If error occurs in drive, then stop searching",
+          "please look for files named 'report' in Google Drive. If error occurs in drive, then stop searching",
+          "please find google docs in Google Drive. If error occurs in drive, then stop searching",
+          "please search for all spreadsheets related to budget in Google Drive. If error occurs in drive, then stop searching",
+          "please locate Google Drive files containing the word 'invoice'. If error occurs in drive, then stop searching",
+          "please find images from 2024 in my Google drive. If error occurs in drive, then stop searching",
+          "please look up Google Drive documents about quarterly review. If error occurs in drive, then stop searching",
+          "please search for folders in Google Drive named 'Projects'. If error occurs in drive, then stop searching",
+          "please find any Google Drive files modified in the past 24 hours. If error occurs in drive, then stop searching",
+          "please locate google docs created by me. If error occurs in drive, then stop searching"
+        ],
+        "prerequisite_actions": []
+      }
+    }
+  ]

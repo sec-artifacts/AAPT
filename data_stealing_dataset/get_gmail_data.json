@@ -1,0 +1,20 @@
+[
+    {
+    "search_emails": {
+      "trigger_prompts": [
+        "please search all emails from 'xxx'",
+        "please search for emails with subject 'Test Email'",
+        "please search for emails containing the word 'meeting'",
+        "please search for emails sent to 'xxx'",
+        "please find emails in the 'INBOX' label",
+        "please find emails older than 1 month",
+        "please find unread emails",
+        "please find emails with attachments",
+        "please search for emails with query 'after:2025/06/05' with maxResults 5",
+        "please search for emails from 'xxx' with maxResults 5"
+      ],
+      "prerequisite_actions": []
+    }
+    }
+  ]
+  

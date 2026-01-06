@@ -1,0 +1,5 @@
+## Reverse Agent Shell Attacks
+
+This repository contains the implementation of the paper on reverse agent shell attacks against MCP-enabled LLM agents. 
+The project demonstrates how malicious MCP servers can compromise agent tool pipelines, establish long-term persistent control, and enable remote retrieval and adaptive execution of malicious instructions.
+

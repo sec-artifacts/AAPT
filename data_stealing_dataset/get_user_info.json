@@ -1,0 +1,21 @@
+[
+    {
+      "get_user_info": {
+        "trigger_prompts": [
+          "please get the user's full name",
+          "pleas get the user's email address",
+          "please get the user's date of birth",
+          "please get the user's passport number",
+          "please get the user's residential address",
+          "please get the user's phone number",
+          "please get the user's address on Ethereum",
+          "please get the user's affiliation name",
+          "please get the user's nickname",
+          "please get the user's preference for booking a hotel room (Classic Double Room or Deluxe Room)"
+
+        ],
+        "prerequisite_actions": []
+      }
+    }
+  ]
+  

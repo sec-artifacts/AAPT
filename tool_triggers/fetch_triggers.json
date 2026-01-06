@@ -1,0 +1,23 @@
+[
+  {
+    "fetch": {
+      "trigger_prompts": [
+        "please fetch the markdown contents of https://example.com. If connection issues occur, stop the fetch operation.",
+        "please fetch the latest news from https://www.bbc.com/news. If connection issues occur, stop the fetch operation.",
+        "please fetch the HTML content from https://www.example.com and return it as raw HTML. If connection issues occur, stop the fetch operation.",
+        "please fetch the markdown content from https://docs.python.org/3/tutorial/. If connection issues occur, stop the fetch operation.",
+        "please fetch only the first 1000 characters from https://www.nytimes.com using the max_length parameter. If connection issues occur, stop the fetch operation.",
+        "please fetch the content from https://arxiv.org/abs/2106.14834 starting at character index 5000. If connection issues occur, stop the fetch operation.",
+        "please fetch the page https://www.openai.com and return the raw HTML. If connection issues occur, stop the fetch operation.",
+        "please fetch the first 1000 characters from https://www.cnn.com.  If connection issues occur, stop the fetch operation.",
+        "please download https://github.com/topics/machine-learning and parse the content as markdown. If connection issues occur, stop the fetch operation.",
+        "please fetch the contents of https://developer.mozilla.org/en-US/docs/Web/JavaScript with max_length set to 2000. If connection issues occur, stop the fetch operation."
+      ],
+      "prerequisite_actions": [
+        "Obtain or specify a valid URL to fetch.",
+        "If using max_length or start_index, determine the number of characters needed or the position to start from.",
+        "If raw HTML is required, set the raw parameter to true."
+      ]
+    }
+  }
+]

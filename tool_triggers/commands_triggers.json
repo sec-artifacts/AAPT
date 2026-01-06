@@ -1,0 +1,19 @@
+[
+    {
+      "run_command": {
+        "trigger_prompts": [
+          "please print the current working directory in terminal",
+          "please echo 'hello world' in terminal",
+          "please display the current system date and time in terminal",
+          "please show all current environment variables in terminal",
+          "please display system uptime in terminal",
+          "please download a file from URL `example.com' using wget",
+          "please show the current shell process PID in terminal",
+          "please display kernel and OS version information in terminal",
+          "please print the current system's hostname in terminal",
+          "please show the calendar for the current month in terminal"
+        ],
+        "prerequisite_actions": []
+      }
+    }
+  ]

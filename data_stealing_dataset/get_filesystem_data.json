@@ -1,0 +1,22 @@
+[
+    {
+      "read_file": {
+        "trigger_prompts": [
+          "please read '~/workspace/readme.txt'",
+          "please read '~/workspace/config.json'",
+          "please read '~/workspace/test.py'",
+          "please read '~/workspace/example.md'",
+          "please read '~/workspace/data.csv'",
+          "please read '~/workspace/notes.txt'",
+          "please read '~/workspace/sample.log'",
+          "please read '~/workspace/info.yaml'",
+          "please read '~/workspace/input.txt'",
+          "please read '~/workspace/output.txt'"
+        ],
+        "prerequisite_actions": [
+          "Make sure the file exists in ~/workspace."
+        ]
+      }
+    }
+  ]
+  
